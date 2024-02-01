@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+:root {
+    --default-font: 'Poppins', sans-serif;
+    --primary-color: #2374EE;
+    --hero-bg-color: #EBF2FF;
+  }
+  
+  *{
+    font-family:var(--default-font)
+  }
+  a{
+    text-decoration: none;
+  }
+  button{
+    border-radius: 25px;
+    border: none;
+    padding: 1rem 2rem;
+  }
+  .button--primary{
+    background-color: var(--primary-color);
+    color: white;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .brand{
+    display: flex;
+    align-items: center;
+    gap: 1rem ;
+  }
+  .logo-text{
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  /* hero system */
+  .Hero_top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem;
+    background-color: var(--hero-bg-color);
+  }
